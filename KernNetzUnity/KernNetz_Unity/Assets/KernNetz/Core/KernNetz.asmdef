@@ -1,0 +1,18 @@
+{
+    "name": "Entangle",
+    "references": [
+        "GUID:4e7c916d75fae734fa1378baeb36e315"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "FigNet.dll",
+        "System.Memory.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

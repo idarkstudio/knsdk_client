@@ -70,3 +70,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+KernNetzUnity/KernNetz_Unity/Library/
+KernNetzUnity/KernNetz_Unity/obj/
+KernNetzUnity/KernNetz_Unity/Logs/

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2bd62dc803d5e439c721f5c216ff22, type: 3}
+  m_Name: ServerConfig
+  m_EditorClassIdentifier: 
+  Config:
+    AppId: 48d868cbe80928edcdcb5d705a7zxccx
+    Nmae: EntangleClient
+    AppName: entangle
+    AppSecrectKey: 123
+    EncryptionKey: MbQeThWmZq4t6w
+    ServerIp: 54.244.212.190
+    Port: 5559
+    TransportLayer: ENet
+    MaxConnections: 3
+    MaxChannels: 8
+    DisconnectTimeout: 6000
+    SyncRate: 12
+    MaxReceiveQueueSize: 10000
+    MaxSendQueueSize: 5000
+    IsSecure: 1
+    EnableCheckSum: 0
+    IsMultiThreaded: 1
+    LogginLevel: 1
+    LODs: []
