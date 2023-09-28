@@ -9,8 +9,6 @@ namespace FigNet.KernNetz.Operations
     // todo: UpDate the operation remove entityId & EntityType Either from operation or ENStatebatch
     public class EntityStateOperation
     {
-        private static ObjectPool<Message> pool = new ObjectPool<Message>(256, true);
-
         public static Message GetOperation(ENStateFrameBatch state)
         {
             Dictionary<byte, object> parameters = new Dictionary<byte, object>

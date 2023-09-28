@@ -18,16 +18,16 @@ MonoBehaviour:
     AppName: entangle
     AppSecrectKey: 123
     EncryptionKey: MbQeThWmZq4t6w
-    ServerIp: 54.244.212.190
-    Port: 5559
-    TransportLayer: ENet
+    ServerIp: 127.0.0.1
+    Port: 6001
+    TransportLayer: WebSockets
     MaxConnections: 3
     MaxChannels: 8
     DisconnectTimeout: 6000
     SyncRate: 12
     MaxReceiveQueueSize: 10000
     MaxSendQueueSize: 5000
-    IsSecure: 1
+    IsSecure: 0
     EnableCheckSum: 0
     IsMultiThreaded: 1
     LogginLevel: 1
